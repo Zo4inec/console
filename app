@@ -9,4 +9,6 @@ $app = new Application();
 
 $app->add(new \App\CommandOne());
 
+$app->add(new \App\CommandTwo());
+
 $app->run();
