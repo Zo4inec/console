@@ -11,4 +11,6 @@ $app->add(new \App\CommandOne());
 
 $app->add(new \App\CommandTwo());
 
+$app->add(new \App\CommandThree());
+
 $app->run();
